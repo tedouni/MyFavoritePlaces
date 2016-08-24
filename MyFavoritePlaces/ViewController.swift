@@ -10,8 +10,13 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var findOutMore: UIButton!
+
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        findOutMore.layer.cornerRadius = 2.0
+        
         // Do any additional setup after loading the view, typically from a nib.
     }
 
